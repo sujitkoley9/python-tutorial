@@ -1,40 +1,40 @@
 # Scraping Part:
-## Location:
-    cs18mds11032/TechnologyNewsScraping
-## TechnologyNewsScraperBot
-	This is a Scrapy project to scrape Technology related articles from famous site http://www.inshorts.com/en/read/technology
+	## Location:
+		cs18mds11032/TechnologyNewsScraping
+	## TechnologyNewsScraperBot
+		This is a Scrapy project to scrape Technology related articles from famous site http://www.inshorts.com/en/read/technology
 
-## System  requirements
-  1. python 3
-  2. Below external packages
-	  Scrapy==1.8.0
-	  selenium==3.141.0
-
-
-## Extracted data
-
-This project extracts content, meta_keyword,title,url
-The extracted data looks like this sample:
-
-   { 'content': 'data/content_file/content_1265.txt',
-	 'doc_id': 1265,
-	 'meta_keyword': None,
-	 'title': 'RBI to issue periodic scores to assess digital payments industry',
-	 'url': 'https://inc42.com/buzz/rbi-introduces-scoring-system-to-map-digital-payments/?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts%20'
-}
+	## System  requirements
+	  1. python 3
+	  2. Below external packages
+		  Scrapy==1.8.0
+		  selenium==3.141.0
 
 
-## Spiders
+	## Extracted data
 
-This project contains one spider.
-  1. Technology
+	This project extracts content, meta_keyword,title,url
+	The extracted data looks like this sample:
 
-## Running the spiders
+	   { 'content': 'data/content_file/content_1265.txt',
+		 'doc_id': 1265,
+		 'meta_keyword': None,
+		 'title': 'RBI to issue periodic scores to assess digital payments industry',
+		 'url': 'https://inc42.com/buzz/rbi-introduces-scoring-system-to-map-digital-payments/?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts%20'
+	}
 
-You can run a spider using the below command:
 
-	python -m scrapy crawl Technology
+	## Spiders
 
-it will store extracted data in excel
+	This project contains one spider.
+	  1. Technology
 
-# Language Modeling part:
+	## Running the spiders
+
+	You can run a spider using the below command:
+
+		python -m scrapy crawl Technology
+
+	it will store extracted data in excel
+
+	# Language Modeling part:
